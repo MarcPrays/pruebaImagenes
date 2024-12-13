@@ -9,6 +9,7 @@ import { CardproductoTarjetaComponent } from './components/cardproducto-tarjeta/
 import { CardbuscadorComponent } from './components/cardbuscador/cardbuscador.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { AboutComponent } from './pages/about/about.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 // Aqui indicamos que componentes vamos a utilizar en nuestra aplicacion 
 @NgModule({
@@ -20,6 +21,7 @@ import { AboutComponent } from './pages/about/about.component';
     CardbuscadorComponent,
     InicioComponent,
     AboutComponent,
+    NavbarComponent,
     
   ],
   imports: [
